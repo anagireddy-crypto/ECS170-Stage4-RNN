@@ -1,0 +1,14 @@
+{
+  "random_seed": 42,
+  "epochs": 5,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "max_vocab_size": 10000,
+  "max_sequence_length": 200,
+  "embedding_dim": 100,
+  "hidden_dim": 128,
+  "num_rnn_layers": 1,
+  "best_epoch": 3,
+  "best_validation_loss": 0.32757076020240783,
+  "best_validation_accuracy": 0.8578
+}

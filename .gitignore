@@ -22,3 +22,20 @@ script/stage_2_script/
 
 result/stage_1_result/
 result/stage_2_result/
+
+# Stage 4 data and model checkpoints are local-only.
+data/stage_4_data/
+*.pth
+
+# Keep Stage 4 source and scripts, plus compact results and report figures.
+!local_code/stage_4_code/
+!local_code/stage_4_code/**
+!script/stage_4_script/
+!script/stage_4_script/**
+result/stage_4_result/**
+!result/stage_4_result/**/
+!result/stage_4_result/**/*.json
+!result/stage_4_result/**/generated_jokes.txt
+!result/stage_4_result/**/training_vs_generated_comparison.txt
+!result/stage_4_result/report_figures/
+!result/stage_4_result/report_figures/**

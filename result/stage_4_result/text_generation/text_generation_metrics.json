@@ -1,0 +1,27 @@
+{
+  "random_seed": 42,
+  "epochs": 5,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "max_vocab_size": 10000,
+  "embedding_dim": 64,
+  "hidden_dim": 128,
+  "training_examples": 18172,
+  "validation_examples": 4489,
+  "best_epoch": 3,
+  "best_validation_loss": 6.335730201073653,
+  "training_losses": [
+    6.733031031688141,
+    5.646766538953771,
+    4.96601216740055,
+    4.340956178657184,
+    3.770426490929797
+  ],
+  "validation_losses": [
+    6.420109747778097,
+    6.346157484528322,
+    6.335730201073653,
+    6.3977650410615405,
+    6.463363850560213
+  ]
+}
